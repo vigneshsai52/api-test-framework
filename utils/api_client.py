@@ -1,6 +1,6 @@
 import requests
 
-BASE_URL = "https://reqres.in/api"
+BASE_URL = "https://jsonplaceholder.typicode.com"
 
 def get(endpoint, params=None):
     return requests.get(f"{BASE_URL}{endpoint}", params=params)
